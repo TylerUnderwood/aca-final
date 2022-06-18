@@ -30,13 +30,13 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		overflow-y: scroll;
+		// overflow-y: scroll;
 		border-radius: $round;
 		border: solid 2px darken($bg_color, 4%);
 		background-color: $bg_color;
 		transition: opacity $time ease,
-					transform $time ease;		
-	
+					transform $time ease;
+
 		&:not(&--active) {
 			opacity: 0;
 			transform: translateX( 10% );
@@ -61,7 +61,7 @@
 			background-color: $accent;
 			color: $white;
 			transition: left $time ease;
-	
+
 			&::before,
 			&::after {
 				display: block;
@@ -120,11 +120,11 @@
 					left: (($i - 1) * 2.5em) + ($i * 0.5em);
 				}
 			}
-	
+
 			&:not(&--active) {
 				top: 1em;
 			}
-	
+
 			&--active {
 				top: 0;
 				cursor: default;
@@ -136,7 +136,7 @@
 		&__wrapper {
 			padding: 0 0 0 5rem;
 		}
-		
+
 		&__nav #{$self}__tab {
 			right: unset;
 			left: 0;
@@ -168,11 +168,11 @@
 					top: (($i - 1) * 2em) + ($i * 0.5em);
 				}
 			}
-	
+
 			&:not(&--active) {
 				left: 1em;
 			}
-	
+
 			&--active {
 				left: 0;
 				cursor: default;

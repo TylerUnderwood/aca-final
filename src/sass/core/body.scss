@@ -12,6 +12,17 @@
 
 html {
 	@include fluid-type(font-size, $min-width, $max-width, $font-min, $font-max);
+
+	// Firefox only
+	scroll-behavior: smooth;
+
+	/* Remove scrollbar */
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -26,9 +37,6 @@ body {
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	color: $text-color;
-
-	// Firefox only
-	scroll-behavior: smooth;
 }
 
 .scrollable {
@@ -67,13 +75,13 @@ body {
 	.modal--active & {
 		z-index: 1;
 	}
-	
+
 	&.fixed-header {
 		position: fixed;
 		top: 0;
 		width: 100vw;
 		height: $header-ht;
-	
+
 		& + .viewbox {
 			top: $header-ht;
 		}
