@@ -3,8 +3,6 @@
 # [Nulyph](https://nulyph.netlify.app/)
 My ACA final project
 
-Visit [Nulyph]() hosted on nowhere
-
 ## App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
