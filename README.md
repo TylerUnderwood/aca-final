@@ -1,6 +1,6 @@
-[![Codeship Status for TylerUnderwood/aca-final](https://app.codeship.com/projects/6b235d00-17a6-0138-41db-12ffec903fd5/status?branch=master)](https://app.codeship.com/projects/381022)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cf0353d8-3716-4fa7-a793-b92522939b57/deploy-status)](https://app.netlify.com/sites/nulyph/deploys)
 
-# Nulyph
+# [Nulyph](https://nulyph.netlify.app/)
 My ACA final project
 
 Visit [Nulyph]() hosted on nowhere
